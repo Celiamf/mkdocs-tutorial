@@ -1,4 +1,12 @@
 site_name: MdDocs Tutorial
 nav:
   - Home: index.md
-  - About: about.md
+  - User Guide:
+      - Writing your docs: writing_docs/writing-your-docs.md
+      - Styling your docs: writing_docs/styling-your-docs.md
+  - About:
+      - About: about.md
+      - Release Notes: release-notes.md
+site_url: https://Celiamf.github.io/mkdocs-tutorial/
+extra_css:
+  - style.css
